@@ -223,13 +223,29 @@
 <div id="googleMap" class="slideanim"></div>
 <script>
    function myMap(){
-   var myCenter 
+   var myCenter = new google.maps.LatLng() // zet tussen de () de coordinaten van de pizza zaak
+   var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.ma   ps.MapTypeId.ROADMAP};
+   var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+   var marker = new google.maps.Marker({position:myCenter});
+   marker.setMap(map);
    }
 </script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlW-uV2f7rzdz0e_ZADMv5kTKH8wXxB50&callback=myMap"></script>
+</section>
+
+<!-- Container (About section) -->
+<section id="about" class="container text-center">
+   <article>
+	 
 
 
-
-
+<h3 class="slideanim">About</h3>
+    <p class="slideanim"><em>Wij houden van pizza! Onze pizza word door een professionele chef gemaakt. </em></p>
+    <p class="slideanim">iolo of the Associazione Pizzaiuoli Napoletani (Association of Neapolitan Pizza-makers), and all of our pizzas are made according to Neapolitan tradition. We use only the highest-quality ingredients, including buffalo-milk mozzarella (Mozzarella di Bufala Campana D.O.P.) and San Marzano D.O.P. tomatoes imported from Naples as well as our fresh, home-made mozzarella. All pizzas are drizzled with 100% Italian extra-virgin olive oil and then baked to perfection at 850 degrees in a Mario Acunto wood-fired brick oven from Naples. The finished product is a pizza whose taste will bring you back to Italy. We recommend our three specialties - the Margherita D.O.P., Mom's, and La Saporita. 
+  </p>
+    <br>
+    <br>
+  </article>
 
 
 
