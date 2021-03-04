@@ -258,6 +258,90 @@
                         We nemen wel extra maatregelen door het coronavirus!
                     </p>
                 </article> 
+					<article class="col-sm-4 ">
+                    <h5 class="uppercase general-sub slideanim">Address</h5>
+                    <p class="inline-block slideanim">
+                        1 Main Street, Dublin, Ireland<br>
+                        Phone: +353 90120160<br>
+                        Email: mail@pizza.ie
+                    </p>
+                </article>
+      <article class="col-sm-4 ">
+         <h5 class="uppercase general-sub slideanim">Social</h5>
+         <ul class="list-inline social-links">
+         	<li><a target="_blank " href="# "><i class="fa fa-facebook slideanim"></i></a></li>
+            <li><a target="_blank " href="# "><i class="fa fa-twitter slideanim"></i></a></li>
+          	<li><a target="_blank " href="# "><i class="fa fa-instagram slideanim"></i></a></li>
+           	<li><a target="_blank " href="# "><i class="fa fa-youtube slideanim"></i></a></li>
+         </ul>
+      </article>
+   </section>
+</footer>
+
+<script>
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+   
+ 	$(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+    if (this.hash !== "") {
+
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        window.location.hash = hash;
+      });
+    } 
+  });
+  
+   $(".slideanimate").each(function(){
+        $(this).stop().delay(1000).addClass("slide");
+    });
+  
+    $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+    
+      var winTop = $(window).scrollTop();
+      if (pos < winTop + 600) {
+        $(this).addClass("slide");
+      }
+    });
+    });
+    
+})
+
+</script>
+</body>
+</html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
