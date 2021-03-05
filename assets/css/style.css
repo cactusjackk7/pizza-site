@@ -181,6 +181,18 @@ footer a:hover {
 textarea {
    resize: none;
 }
+.uppercase {
+   text-transform: uppercase;
+}
+.general-sub {
+   font-family: "Exo", sans-serrif;
+   font-weight: 300;
+   color: #fafafa;
+}
+.inline-block {
+   display: inline-block;
+}
+
 
 
 
