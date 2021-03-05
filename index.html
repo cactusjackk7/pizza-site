@@ -217,22 +217,6 @@
   </div>
 </section>
 
-<section id="location" class="container">
-<h3 class="text-center slideanim">Location</h3>
-<!--locatie-->
-<div id="googleMap" class="slideanim"></div>
-<script>
-   function myMap(){
-   var myCenter = new google.maps.LatLng() // zet tussen de () de coordinaten van de pizza zaak
-   var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.ma   ps.MapTypeId.ROADMAP};
-   var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-   var marker = new google.maps.Marker({position:myCenter});
-   marker.setMap(map);
-   }
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlW-uV2f7rzdz0e_ZADMv5kTKH8wXxB50&callback=myMap"></script>
-</section>
-
 <!-- Container (About section) -->
 <section id="about" class="container text-center">
    <article>
