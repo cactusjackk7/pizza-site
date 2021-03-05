@@ -127,3 +127,48 @@ body {
 .row.display-flex:after {
    display: none;  
 }
+
+/*Modal Section*/
+.modal-header, h4, .close {
+   background-color: #333;
+   color: #fff !important;
+   text-align: center;
+   font-size: 30px;
+}
+.modal-header {
+   padding: 40px 50px;
+}
+.nav-tabs li a {
+   color: #777;
+}
+/*about*/
+.collapse-info {
+   border: 10px;
+   margin-bottom: 25px;
+   width: 80%;
+   height: 80%;
+   opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
