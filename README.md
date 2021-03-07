@@ -9,4 +9,8 @@ Made this site for school. We had to make a site for a person who wanted a onlin
 
 We had to make a database too. I got a [database](https://github.com/ai-santos/pizza-database) from github
 
+------------------------------------
+
+I made the site with HTML/CSS and JavaScript. We had a one and a half month the time to make it.
+(07-03-2021)Still have time to finish it. This is my "preversion" of the site. I think its done, but maybe in the future i may be changing it. 
 
