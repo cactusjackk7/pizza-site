@@ -1,6 +1,7 @@
 Soprano's Pizza Store.
 
 ---------------------------------------------
+SOPRANO'S
 
 ![Unit test](https://github.com/geohot/tinygrad/workflows/Unit%20Tests/badge.svg)
 
