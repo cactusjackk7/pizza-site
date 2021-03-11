@@ -1,4 +1,5 @@
 <?php
+include 'index.html';
 $value = 'something from somewhere';
 
 setcookie("TestCookie", $value);
