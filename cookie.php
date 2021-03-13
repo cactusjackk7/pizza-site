@@ -1,4 +1,5 @@
 <?php
+
 include 'index.html';
 
 require( __DIR__ . '/vendor/autoload.php' );
