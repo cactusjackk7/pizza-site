@@ -17,4 +17,6 @@ I made the site with HTML/CSS and JavaScript. We had a one and a half month the 
 
 --------------------------------------------------
 
+The site must have cookies sessions, in the site and the shopping cart. We have to make the cookies in PHP.
 
+-------------------------------------------
