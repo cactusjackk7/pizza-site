@@ -1,4 +1,5 @@
 <?php
+
 include 'shoppingcart.html';
 include 'index.html';
 $value = 'something from somewhere';
