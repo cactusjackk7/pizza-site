@@ -32,3 +32,18 @@ CREATE TABLE orders(
 	PRIMARY KEY (id)
 );
 
+CREATE TABLE pizza_data (
+   pizza_data_id SERIAL ,
+   size VARCHAR ,
+   type VARCHAR ,
+   price DECIMAL ,
+   happy_hour BOOLEAN NOT NULL DEFAULT 'False' ,
+   PRIMARY KEY (pizza_data_id)
+);
+
+CREATE TABLE pizza_data_join (
+   pizza_data_id INTEGER ,
+   orders_id INTEGER
+);
+
+CREATE TABLE 
