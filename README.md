@@ -2,7 +2,9 @@ Soprano's Pizza Store.
 
 ---------------------------------------------
 SOPRANO'S
-
+---------------------
+front-end and back-end
+------------------------
 ![Unit test](https://github.com/geohot/tinygrad/workflows/Unit%20Tests/badge.svg)
 
 Made this site for school. We had to make a site for a person who wanted a online pizza-store. 
