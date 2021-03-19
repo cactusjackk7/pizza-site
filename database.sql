@@ -57,3 +57,15 @@ CREATE TABLE ingredients_join (
     pizza_data_id  INTEGER,
     ingredients_id INTEGER
 );
+
+CREATE TABLE drinks (
+    id SERIAL ,
+    description VARCHAR ,
+    manufacturer VARCHAR ,
+    
+);
+
+CREATE TABLE drinks_join (
+    orders_id INTEGER ,
+    drink_id INTEGER
+);
