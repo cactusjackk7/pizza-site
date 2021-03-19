@@ -46,4 +46,14 @@ CREATE TABLE pizza_data_join (
    orders_id INTEGER
 );
 
-CREATE TABLE 
+CREATE TABLE ingredients (
+  id SERIAL ,
+  name VARCHAR ,
+  price DECIMAL ,
+  PRIMARY KEY (id)  
+);
+
+CREATE TABLE ingredients_join (
+    pizza_data_id  INTEGER,
+    ingredients_id INTEGER
+);
