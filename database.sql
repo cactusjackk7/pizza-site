@@ -106,3 +106,4 @@ ALTER TABLE preference_join ADD FOREIGN KEY (preference_id) REFERENCES preferenc
 ALTER TABLE preference_join ADD FOREIGN KEY (customer_id) REFERENCES customer (customer_id);
 ALTER TABLE user_login ADD FOREIGN KEY (customer_id) REFERENCES customer (customer_id);
 
+-- database done --
