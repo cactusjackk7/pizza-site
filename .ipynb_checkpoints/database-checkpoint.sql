@@ -69,3 +69,15 @@ CREATE TABLE drinks_join (
     orders_id INTEGER ,
     drink_id INTEGER
 );
+
+CREATE TABLE preference (
+    id SERIAL ,
+    pizza_data_id INTEGER ,
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE preference_join (
+    preference_id INTEGER ,
+    customer_id INTEGER
+);
+
