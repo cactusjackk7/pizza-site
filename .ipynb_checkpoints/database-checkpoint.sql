@@ -81,3 +81,10 @@ CREATE TABLE preference_join (
     customer_id INTEGER
 );
 
+CREATE TABLE user_login (
+    customer_id INTEGER ,
+    user_login_name VARCHAR ,
+    password VARCHAR ,
+    salt VARCHAR ,
+    PRIMARY KEY (customer_id)
+);
