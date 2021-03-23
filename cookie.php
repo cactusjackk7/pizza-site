@@ -1,6 +1,6 @@
 <?php
 include 'index.html';
-
+ 
 ("mysql:host=localhost;dbname=test", "root", "");
 
 $message = '';
