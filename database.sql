@@ -1,4 +1,5 @@
 -- database voor soprano's --
+
 CREATE TABLE customer (
    customer_id SERIAL ,
    name VARCHAR ,
