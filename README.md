@@ -20,5 +20,6 @@ I made the site with HTML/CSS and JavaScript. We had a one and a half month the 
 --------------------------------------------------
 
 The site must have a cookies sessions, in the site and the shopping cart. We have to make the cookies in PHP.
+Database is made with MYSQLWorkbench. This is the first time that i made a database. 
 
 -------------------------------------------
