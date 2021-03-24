@@ -19,3 +19,13 @@ function setCookie(cname, cvalue, exdays) {
       }
       return false;
    }
+
+  if(getCookie("KoiMilGaya")) {
+//alert('found'); 
+// Cookie found. Display any text like repeat user. // reload, other page visit, close tab and open again.. 
+  } else {
+    //alert('nothing');
+    // Display popup or anthing here. it shows on first visit only.  
+    // this will load again when user closer browser and open again. 
+    setCookie('KoiMilGaya','1');
+  } 
