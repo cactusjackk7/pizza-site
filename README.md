@@ -24,3 +24,6 @@ The site must have a cookies sessions, in the site and the shopping cart. We hav
 Database is made with MYSQLWorkbench. This is the first time that i made a database. 
 
 -------------------------------------------
+The site must have a good db, Most of the info that i got, is from Stackoverflow or our book "Back-End Programmeren."
+----------------------------------------
+
