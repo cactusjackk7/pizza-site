@@ -1,3 +1,4 @@
+
 INSERT INTO sopranos.menuitems(naam, omschrijving, foto) VALUES
 ('hawai', 'met ananas', '1.jpeg'),
 ('margarita', 'dit dus', '2.jpeg'),
