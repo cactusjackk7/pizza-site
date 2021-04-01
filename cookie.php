@@ -60,7 +60,7 @@ if(isset($_GET["action"]))
     unset($cart_data[$keys]);
     $item_data = json_encode($cart_data);
     setcookie("shopping_cart", $item_data, time() + (86400 * 30));
-    header("location:index.php?remove=1");
+    header("location:index.html?remove=1");
    }
   }
  }
