@@ -30,4 +30,4 @@ Database is made with MYSQLWorkbench. This is the first time that i made a datab
 The site must have a good db, Most of the info that i got, is from Stackoverflow or our book "Back-End Programmeren."
 
 ----------------------------------------
-
+--------------
